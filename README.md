@@ -18,6 +18,7 @@ For the analysis, [data](https://github.com/ranilb/Neural_Network_Charity_Analys
 * IS_SUCCESSFUL—Was the money used effectively
 
 
+
 ## Results
 first, a nueral network algorithm was implemented to determine where to support with fundings using the data listed in the above section.
 
@@ -45,6 +46,7 @@ first, a nueral network algorithm was implemented to determine where to support 
  
  
     <img width="632" alt="Screen Shot 2023-02-02 at 3 49 30 PM" src="https://user-images.githubusercontent.com/112113327/216446427-a1637642-cd96-48d5-be5c-1c9a6ac5c6bf.png">
+
 
 
 ## Summary
