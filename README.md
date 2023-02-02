@@ -17,6 +17,7 @@ For the analysis, [data](https://github.com/ranilb/Neural_Network_Charity_Analys
 * ASK_AMT—Funding amount requested
 * IS_SUCCESSFUL—Was the money used effectively
 
+
 ## Results
 first, a nueral network algorithm was implemented to determine where to support with fundings using the data listed in the above section.
 
