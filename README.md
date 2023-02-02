@@ -35,4 +35,18 @@ first, a nueral network algorithm was implemented to determine where to support 
 
     <img width="639" alt="Screen Shot 2023-02-02 at 2 47 21 PM" src="https://user-images.githubusercontent.com/112113327/216434931-f263f7b2-2fcb-453b-b814-c164dc96494a.png">
 
+* Since the accuracy of the algorithm is around 73%. Therefore, to improve the accuracy, following modifications were implemented:
+    * Dropped the column "SPECIAL_CONSIDERATIONS" as it provides only the "Special consideration for application"
+    * Changed the number of nuerons in hidden layers so that it gets 2-3 times the input variables
+    * Added the third hidden layer to improve the accuracy of the method
+    * Changed the activation function of the output layer from "sigmoid" to "tanh"
+ However the accuracy did not improve. 
+ 
+ 
+    <img width="632" alt="Screen Shot 2023-02-02 at 3 49 30 PM" src="https://user-images.githubusercontent.com/112113327/216446427-a1637642-cd96-48d5-be5c-1c9a6ac5c6bf.png">
+
+
+## Summary
+
+The accuracy of the algorithm is below 75% even after making several modifications. The accuracy is below 75% means it is not in the acceptable region and it can be observed that this neural network algorithm does not perporm well on this data set. If we look at the goal of this project, we can see that this is a classification problem. Hence we could use machime learning techniques like Random Forest Classifier to make the decision.
 
