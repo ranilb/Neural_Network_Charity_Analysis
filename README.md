@@ -42,6 +42,7 @@ first, a nueral network algorithm was implemented to determine where to support 
     * Changed the number of nuerons in hidden layers so that it gets 2-3 times the input variables
     * Added the third hidden layer to improve the accuracy of the method
     * Changed the activation function of the output layer from "sigmoid" to "tanh"
+    * Changed the epochs to 80
  However the accuracy did not improve. 
  
  
