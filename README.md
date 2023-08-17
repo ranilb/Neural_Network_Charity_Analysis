@@ -52,5 +52,5 @@ first, a nueral network algorithm was implemented to determine where to support 
 
 ## Summary
 
-The accuracy of the algorithm is below 75% even after making several modifications. The accuracy is below 75% means it is not in the acceptable region and it can be observed that this neural network algorithm does not perporm well on this data set. If we look at the goal of this project, we can see that this is a classification problem. Hence we could use machime learning techniques like Random Forest Classifier to make the decision.
+The accuracy of the algorithm is below 75% even after making several modifications. The accuracy is below 75% means it is not in the acceptable region and it can be observed that this neural network algorithm does not perform well on this data set. If we look at the goal of this project, we can see that this is a classification problem. Hence we could use machime learning techniques like Random Forest Classifier to make the decision.
 
