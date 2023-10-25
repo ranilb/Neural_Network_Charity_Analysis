@@ -31,13 +31,13 @@ first, a nueral network algorithm was implemented to determine where to support 
 
 ### Compiling, Training, and Evaluating the Model
 * Two hiddenn layers were included in the algorithm with the "relu" activation function. 
-* 80 nuerons were included in first hidden layer and the 30 nuerons were included in the second hidden layer. This id due to the numner of imputs is 43. It is reccomended to use 2-3 times nuerons of number of imputs.
+* 80 nuerons were included in first hidden layer and the 30 nuerons were included in the second hidden layer. This is due to the number of inputs is 43. It is reccomended to use 2-3 times nuerons of number of imputs.
 * The activation function of the output layer was selected as "sigmoid". Both hidden and output layers have "relu" and "sigmoid" activation fuctions as it can not expect a linear relationship here. 
-* With all the above specifications, the model was ran for 50 epochs and the accuracy was 72,6% as shown in the following figure.
+* With all the above specifications, the model was ran for 50 epochs and the accuracy was 72.6% as shown in the following figure.
 
     <img width="639" alt="Screen Shot 2023-02-02 at 2 47 21 PM" src="https://user-images.githubusercontent.com/112113327/216434931-f263f7b2-2fcb-453b-b814-c164dc96494a.png">
 
-* Since the accuracy of the algorithm is around 73%. Therefore, to improve the accuracy, following modifications were implemented:
+* The accuracy of the algorithm is around 73%. Therefore, to improve the accuracy, following modifications were implemented:
     * Dropped the column "SPECIAL_CONSIDERATIONS" as it provides only the "Special consideration for application"
     * Changed the number of nuerons in hidden layers so that it gets 2-3 times the input variables
     * Added the third hidden layer to improve the accuracy of the method
